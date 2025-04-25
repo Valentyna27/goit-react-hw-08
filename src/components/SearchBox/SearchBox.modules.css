@@ -1,0 +1,23 @@
+.boxWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.labelSearch {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: rgba(41, 46, 47, 0.848);
+}
+
+.inputSearch {
+  width: 285px;
+  padding-left: 15px;
+  height: 40px;
+  font-size: 18px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid rgba(221, 126, 3, 0.848);
+}

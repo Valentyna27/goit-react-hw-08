@@ -1,0 +1,35 @@
+.contactBox {
+}
+
+.contactName {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(179, 106, 11, 0.848);
+}
+
+.contactNumber {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(22, 22, 22, 0.848);
+}
+
+.deleteBtn {
+  width: 80px;
+  height: 30px;
+  background-color: rgba(221, 126, 3, 0.848);
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: rgba(247, 157, 39, 0.848);
+  transition: all 0.3s ease-in-out;
+}
+
+.icons {
+  margin-right: 5px;
+  margin-bottom: -2px;
+}

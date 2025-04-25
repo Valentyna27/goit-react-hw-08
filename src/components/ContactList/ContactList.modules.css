@@ -1,0 +1,16 @@
+.contactsBook {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+.contactBookItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fefefe;
+  border: 1px solid rgba(221, 126, 3, 0.848);
+}
