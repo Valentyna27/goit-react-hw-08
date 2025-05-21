@@ -1,8 +1,17 @@
 import { useId } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { changeFilter } from '../../redux/filtersSlice';
 import './SearchBox.modules.css';
 
-export default function SearchBox({ value, onFilter }) {
+export default function SearchBox() {
   const id = useId();
+  const dispatch = useDispatch();
+  const filter = useSelector(state => state.filters.name);
+
+  const handleChange = evt => {
+    dispatch(changeFilter(evt.target.value));
+  };
+
   return (
     <div className="boxWrapper">
       <label className="labelSearch" htmlFor={id}>
@@ -12,8 +21,8 @@ export default function SearchBox({ value, onFilter }) {
         className="inputSearch"
         type="text"
         id={id}
-        value={value}
-        onChange={onFilter}
+        value={filter}
+        onChange={handleChange}
       />
     </div>
   );

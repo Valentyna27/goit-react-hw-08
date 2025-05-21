@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 15px;
   width: 300px;
+  margin-left: -40px;
 }
 
 .contactBookItem {
