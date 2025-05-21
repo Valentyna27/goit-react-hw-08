@@ -10,7 +10,7 @@ export default function ContactList() {
   const showedContacts = contacts.filter(contact =>
     contact.name.toLowerCase().includes(filter)
   );
-  console.log('showedContacts:', showedContacts);
+
 
   return (
     <ul className="contactsBook">
