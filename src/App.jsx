@@ -21,7 +21,7 @@ export default function App() {
   }, [dispatch]);
 
   return isRefreshing ? (
-    <p>Refreshing user...</p>
+    <p>Refreshing  user...</p>
   ) : (
     <>
       <Routes>
