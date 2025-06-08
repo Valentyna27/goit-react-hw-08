@@ -1,4 +1,4 @@
-.form {
+.formContact {
   border: 2px solid rgba(221, 126, 3, 0.848);
   border-radius: 8px;
   width: 300px;
@@ -8,22 +8,23 @@
   justify-content: center;
   align-items: center;
   background-color: white;
+  margin-bottom: 20px;
 }
 
-.inputsWrapper {
+.inputsWrapperContact {
   display: flex;
   flex-direction: column;
   justify-self: center;
   align-items: center;
 }
 
-.formLabel {
+.formLabelContact {
   font-size: 18px;
   color: rgba(41, 46, 47, 0.848);
   margin-bottom: 5px;
 }
 
-.input {
+.inputContact {
   width: 250px;
   height: 40px;
   padding-left: 15px;
@@ -34,7 +35,7 @@
   margin-bottom: 10px;
 }
 
-.message {
+.messageContact {
   width: 250px;
   text-align: left;
   font-size: 12px;
@@ -42,7 +43,7 @@
   margin-top: -5px;
 }
 
-.formBtn {
+.formBtnContact {
   width: 150px;
   height: 40px;
   background-color: rgba(221, 126, 3, 0.848);
@@ -55,7 +56,7 @@
   margin-bottom: 10px;
 }
 
-.formBtn:hover {
+.formBtnContact:hover {
   background-color: rgba(247, 157, 39, 0.848);
   transition: all 0.3s ease-in-out;
 }

@@ -1,0 +1,21 @@
+.hpWrapper {
+  max-width: 600px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #fffbea;
+  border: 2px solid #f0ad4e;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hpTitle {
+  font-size: 36px;
+  color: #d58512;
+  margin-bottom: 20px;
+}
+
+.hpText {
+  font-size: 18px;
+  color: #444;
+}
